@@ -257,7 +257,7 @@ const founders = [
     photo: "/rajat.webp",
     name: "Rajat Sethi",
     role: "Chief Executive Officer",
-    edu: ["MPA - Harvard Kennedy School", "MBA - MIT Sloan | M.Tech & B.Tech - IIT Kharagpur"],
+    edu: ["MPA - Harvard Kennedy School", "MBA - MIT Sloan School of Management", "M.Tech & B.Tech (CSE) - IIT Kharagpur"],
     bio: "Technology strategist focused on translating frontier quantum and laser-based sensing technologies into operational defense and government capabilities. He brings systems architecture, strategic technology integration, and public-sector execution experience, with academic training across Harvard Kennedy School, MIT Sloan, and IIT Kharagpur.",
     logos: "/logos_rajat.png",
     linkedin: "https://www.linkedin.com/in/sethirajat/",
@@ -266,7 +266,7 @@ const founders = [
     photo: "/shouvik.webp",
     name: "Dr. Shouvik Mukherjee",
     role: "Chief Scientist",
-    edu: ["Research - Joint Quantum Institute", "PhD & MS - University of Pittsburgh"],
+    edu: ["Research - Joint Quantum Institute", "PhD & MS - University of Pittsburgh", "BS & MS (Physics) - IIT Kharagpur"],
     bio: "Quantum device physicist with expertise across solid-state quantum platforms, atomic vapor systems, electronics, optics, and nanofabrication. A former postdoctoral scholar at the Joint Quantum Institute associated with NIST and the University of Maryland, he helps bridge lab-grade device physics with dependable field-operable quantum sensors.",
     logos: "/logos_shouvik.png",
     linkedin: "https://www.linkedin.com/in/shouvik-mukherjee-b35b3919/",
@@ -275,7 +275,7 @@ const founders = [
     photo: "/madhu.webp",
     name: "Dr. Madhu Talluri",
     role: "Chief Technology Officer",
-    edu: ["Research - Lawrence Berkeley National Lab", "PhD (Molecular Physics) - Vrije Universiteit"],
+    edu: ["Research - Lawrence Berkeley National Lab", "PhD (Molecular Physics) - Vrije Universiteit", "M. Phil & MS (Physics)"],
     bio: "Experimental physicist specializing in precision quantum measurements, ultrafast laser spectroscopy, and advanced light-matter interactions. His research experience includes UC Berkeley and Lawrence Berkeley National Lab, while his doctoral work at Vrije Universiteit Amsterdam contributed to stringent tests of quantum electrodynamics.",
     logos: "/logos_madhu.png",
     linkedin: "https://www.linkedin.com/in/madhuttalluri/",
@@ -944,7 +944,7 @@ export default function HomePage() {
       <RevealSection id="team" className="bg-black px-6 py-28 md:px-20">
         <div className="mx-auto max-w-[1400px]">
           <SectionHeading eyebrow="Founding Team" title={<>People Behind <span className="text-cyan-400">QuBeats Physics</span></>} />
-          <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+          <div className="grid grid-cols-1 gap-1.5 md:grid-cols-2 xl:grid-cols-4">
             {founders.map((person) => (
               <div key={person.name} className="stagger-card group flex flex-col rounded-lg border border-white/10 bg-[#090909] p-6 hover:border-cyan-400/50">
                 <div className="relative mb-7 aspect-square w-full overflow-hidden rounded-lg border border-white/10">
