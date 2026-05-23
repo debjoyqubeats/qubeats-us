@@ -580,7 +580,7 @@ export default function HomePage() {
 
           <h1 className="hero-title mx-auto mb-8 max-w-6xl text-5xl font-black uppercase leading-[0.9] text-white sm:text-6xl md:text-8xl">
             Atomic Timing & <br />
-            <span className="hero-gradient-text text-transparent bg-clip-text bg-gradient-to-r from-cyan-200 via-blue-400 to-violet-400">
+            <span className="hero-gradient-text text-cyan-300">
               Rydberg RF Sensing
             </span>
           </h1>
