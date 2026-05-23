@@ -283,12 +283,42 @@ const founders = [
 ];
 
 const advisors = [
-  { photo: "/karambir.webp", name: "Adm Karambir Singh (Retd)", role: "Former Chief of Naval Staff, PVSM, AVSM, ADC" },
-  { photo: "/shekhar.webp", name: "Vice Admiral Shekhar Sinha (Retd)", role: "PVSM, AVSM, NM & Bar, ADC" },
-  { photo: "/surendra.webp", name: "R Adm Surendra Ahuja (Retd)", role: "Navy test pilot & ex-MD, Boeing Defense India" },
-  { photo: "/krishnamurthy.webp", name: "Prof. M Krishnamurthy", role: "Director, TIFR Hyderabad" },
-  { photo: "/rajalakshmi.webp", name: "Dr. G Rajalakshmi", role: "Senior Scientist, TIFR Hyderabad" },
-  { photo: "/rahul.webp", name: "Rahul Bhasin", role: "Managing Partner, Barings PE India" },
+  {
+  photo: "/karambir.webp",
+  name: "Adm Karambir Singh (Retd)",
+  role: "Former Chief of Naval Staff, PVSM, AVSM, ADC",
+  quote: "Resilient navigation in GNSS-denied environments is no longer optional: it is a fleet survival problem. QuBeats is pursuing the right intersection of atomic physics, low-SWaP engineering, and field discipline to make quantum-class sensing deployable where it matters."
+},
+  {
+  photo: "/shekhar.webp",
+  name: "Vice Admiral Shekhar Sinha (Retd)",
+  role: "PVSM, AVSM, NM & Bar, ADC",
+  quote: "The best deep-tech programs pair scientific ambition with operational humility. QuBeats' roadmap — passive sensing, fusion-first architectures, and integration paths for real platforms — is how serious PNT capability gets built, not slideware."
+},
+  {
+  photo: "/surendra.webp",
+  name: "R Adm Surendra Ahuja (Retd)",
+  role: "Navy test pilot & ex-MD, Boeing Defense India",
+  quote: "What wins in aerospace is what you can validate repeatedly under stress: interfaces, EMI discipline, and clear test evidence. QuBeats is thinking like an integrator, which is exactly what quantum sensing needs to graduate from lab curiosity to mission hardware."
+},
+  {
+  photo: "/krishnamurthy.webp",
+  name: "Prof. M Krishnamurthy",
+  role: "Director, TIFR Hyderabad",
+  quote: "Quantum sensors become transformative when measurement science meets manufacturable architectures. QuBeats is translating frontier magnetometry into systems thinking that research institutions and industry can both trust."
+},
+  {
+  photo: "/rajalakshmi.webp",
+  name: "Dr. G Rajalakshmi",
+  role: "Senior Scientist, TIFR Hyderabad",
+  quote: "The gap between a beautiful physics result and a dependable field sensor is often metrology and control loops. QuBeats is asking the right questions about stability, drift, and validation: the unglamorous work that turns a breakthrough into a product."
+},
+  {
+  photo: "/rahul.webp",
+  name: "Rahul Bhasin",
+  role: "Managing Partner, Barings PE India",
+  quote: "Category-defining companies pair a hard technical wedge with capital efficiency and credible milestones. QuBeats is building a defensible sensing stack with clear OEM and program pathways, the kind of deep-tech foundation institutional investors look for."
+},
 ];
 
 function RevealSection({ id, className, children }: { id?: string; className?: string; children: ReactNode }) {
@@ -943,7 +973,15 @@ export default function HomePage() {
 
       <RevealSection id="team" className="bg-black px-6 py-28 md:px-20">
         <div className="mx-auto max-w-[1400px]">
-          <SectionHeading eyebrow="Founding Team" title={<>People Behind <span className="text-cyan-400">QuBeats Physics</span></>} />
+          <SectionHeading
+  eyebrow="Founding Team"
+  title={
+    <>
+      People Behind <span className="text-cyan-400">QuBeats Physics</span>
+    </>
+  }
+  text="Atomic physics, photonics, precision electronics, and fusion, shipping dependable field systems."
+/>
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
             {founders.map((person) => (
               <div key={person.name} className="stagger-card group flex flex-col rounded-lg border border-white/10 bg-[#090909] p-5 hover:border-cyan-400/50">
@@ -972,7 +1010,15 @@ export default function HomePage() {
 
       <RevealSection id="advisors" className="border-t border-white/10 bg-[#050505] px-6 py-24 md:px-20">
         <div className="mx-auto max-w-7xl">
-          <SectionHeading eyebrow="Advisors" title={<>Our <span className="text-cyan-400">Advisors</span></>} />
+          <SectionHeading
+  eyebrow="Advisors"
+  title={
+    <>
+      Our <span className="text-cyan-400">Advisors</span>
+    </>
+  }
+  text="Strategic, scientific, and mission-focused advisors guiding QuBeats in building quantum sensing systems."
+/>
           <div className="grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-3">
             {advisors.map((advisor) => (
               <div key={advisor.name} className="stagger-card group overflow-hidden rounded-lg border border-white/10 bg-[#090909] hover:border-cyan-400/50">
@@ -982,6 +1028,9 @@ export default function HomePage() {
                 <div className="p-7">
                   <h4 className="text-xl font-black uppercase text-white group-hover:text-cyan-300">{advisor.name}</h4>
                   <p className="mt-3 text-xs uppercase leading-6 tracking-[0.12em] text-gray-500">{advisor.role}</p>
+                  <p className="mt-5 text-sm font-light leading-7 text-gray-400 italic">
+  “{advisor.quote}”
+</p>
                 </div>
               </div>
             ))}
