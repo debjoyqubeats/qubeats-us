@@ -944,9 +944,9 @@ export default function HomePage() {
       <RevealSection id="team" className="bg-black px-6 py-28 md:px-20">
         <div className="mx-auto max-w-[1400px]">
           <SectionHeading eyebrow="Founding Team" title={<>People Behind <span className="text-cyan-400">QuBeats Physics</span></>} />
-          <div className="grid grid-cols-1 gap-1.5 md:grid-cols-2 xl:grid-cols-4">
+          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
             {founders.map((person) => (
-              <div key={person.name} className="stagger-card group flex flex-col rounded-lg border border-white/10 bg-[#090909] p-6 hover:border-cyan-400/50">
+              <div key={person.name} className="stagger-card group flex flex-col rounded-lg border border-white/10 bg-[#090909] p-5 hover:border-cyan-400/50">
                 <div className="relative mb-7 aspect-square w-full overflow-hidden rounded-lg border border-white/10">
                   <Image src={person.photo} fill className="object-cover transition duration-700 group-hover:scale-105" alt={person.name} />
                   <a href={person.linkedin} target="_blank" rel="noreferrer" aria-label={`${person.name} LinkedIn`} className="absolute bottom-4 right-4 flex h-8 w-8 items-center justify-center rounded bg-white/90 transition hover:scale-110">
