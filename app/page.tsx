@@ -248,7 +248,7 @@ const founders = [
     photo: "/mallikarjun.webp",
     name: "Mallikarjun Karra",
     role: "Director",
-    edu: ["PhD (Molecular Physics) - Fritz Haber Institut", "Int MSc (Physics) - IIT Kharagpur"],
+    edu: ["PhD (Molecular Physics) - Fritz Haber Institute of the Max Planck Society", "Int MSc (Physics) - IIT Kharagpur"],
     bio: "Entrepreneur and published theoretical physicist with deep experience in molecular physics and quantum control. His research at the Fritz Haber Institute of the Max Planck Society focused on cold and ultracold polar molecules, including trapped polar paramagnetic molecule architectures for quantum computing and optically controlled quantum gate schemes.",
     logos: "/logos_mallikarjun.png",
     linkedin: "https://www.linkedin.com/in/mallikarjun-k-628ab417/",
