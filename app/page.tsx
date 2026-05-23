@@ -624,8 +624,8 @@ export default function HomePage() {
           <div className="mb-10 flex flex-wrap gap-4">
 
             <div className="rounded-xl border border-cyan-400/20 bg-cyan-400/5 px-6 py-4">
-              <p className="text-[10px] font-black tracking-[0.25em] text-cyan-300 mb-2">
-                QuBeats FOUNDED
+              <p className="text-center text-sm font-black tracking-[0.25em] text-cyan-300 mb-2">
+                FOUNDED
               </p>
               <p className="text-3xl font-black text-white">
                 2023
@@ -633,7 +633,7 @@ export default function HomePage() {
             </div>
 
             <div className="rounded-xl border border-violet-400/20 bg-violet-400/5 px-6 py-4">
-              <p className="text-[10px] font-black uppercase tracking-[0.25em] text-violet-300 mb-2">
+              <p className="text-center text-sm font-black uppercase tracking-[0.25em] text-violet-300 mb-2">
                 US Division Launch
               </p>
               <p className="text-3xl font-black text-white">
