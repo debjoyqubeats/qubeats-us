@@ -464,7 +464,7 @@ export default function HomePage() {
             .animate-scroll {
   display: flex;
   width: max-content;
-  animation: scroll 45s linear infinite;
+  animation: scroll 50s linear infinite;
 }
             .animate-scroll:hover { animation-play-state: paused; }
             .hero-bg-image { animation: heroBgReveal 3200ms cubic-bezier(.16,1,.3,1) both; }
