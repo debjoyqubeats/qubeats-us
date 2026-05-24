@@ -825,7 +825,7 @@ export default function HomePage() {
       <RevealSection id="technology" className="relative overflow-hidden border-t border-white/10 bg-[#050505] px-6 py-28 md:px-20">
         <div className="absolute inset-0 space-grid opacity-35" />
         <div className="relative mx-auto max-w-7xl">
-          <SectionHeading eyebrow="Technology" title={<>Two Physics Platforms. One Space Mission Stack.</>} text="Integrating Atomic Timing, RF sensing, and Mission Fusion into One Operational Stack." />
+          <SectionHeading eyebrow="Technology" title={<>Two Physics Platforms. One Space Mission Stack.</>} text="Integrating Atomic Timing, RF Sensing, and Mission Fusion into One Operational Stack." />
 
           <div className="grid gap-8 lg:grid-cols-[360px_1fr]">
             <div className="rounded-lg border border-white/10 bg-black/70 p-3 backdrop-blur">
@@ -978,7 +978,7 @@ export default function HomePage() {
       People Behind <span className="text-cyan-400">QuBeats Physics</span>
     </>
   }
-  text="Atomic physics, photonics, precision electronics, and fusion, shipping dependable field systems."
+  text="Atomic physics, photonics, precision electronics, and mission-system fusion powering dependable field systems."
 />
           <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
             {founders.map((person) => (
@@ -1112,7 +1112,7 @@ export default function HomePage() {
             <XMark className="h-5 w-5 text-[11px]" />
           </a>
         </div>
-        <p className="text-[10px] text-cyan-900">(c) 2026 QuBeats US Aerospace & Defense</p>
+        <p className="text-[10px] text-cyan-900">© 2026 QuBeats US Aerospace & Defense</p>
       </footer>
     </div>
   );
