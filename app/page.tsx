@@ -1043,7 +1043,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="News, Media & Press Releases"
             title={<>Public Updates And Strategic Milestones</>}
-            text="A lightweight press section helps the US site feel current, credible, and connected to QuBeats' broader public story."
+            text="Tracking milestones, partnerships, and strategic progress across quantum and defense initiatives."
           />
 
           <div className="grid gap-6 lg:grid-cols-3">
