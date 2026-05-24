@@ -825,7 +825,7 @@ export default function HomePage() {
       <RevealSection id="technology" className="relative overflow-hidden border-t border-white/10 bg-[#050505] px-6 py-28 md:px-20">
         <div className="absolute inset-0 space-grid opacity-35" />
         <div className="relative mx-auto max-w-7xl">
-          <SectionHeading eyebrow="Technology" title={<>Two Physics Platforms. One Space Mission Stack.</>} text="Integrating atomic timing, RF sensing, and mission fusion into one operational stack." />
+          <SectionHeading eyebrow="Technology" title={<>Two Physics Platforms. One Space Mission Stack.</>} text="Integrating Atomic Timing, RF sensing, and Mission Fusion into One Operational Stack." />
 
           <div className="grid gap-8 lg:grid-cols-[360px_1fr]">
             <div className="rounded-lg border border-white/10 bg-black/70 p-3 backdrop-blur">
