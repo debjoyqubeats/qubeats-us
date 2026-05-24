@@ -735,7 +735,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Mission Capabilities"
             title={<>Built For Space Systems That Cannot Wait For Perfect Conditions</>}
-            text="The US branch positioning is direct: clock stability, RF awareness, and mission autonomy for strategic aerospace programs."
+            text="Built for aerospace environments where timing resilience, RF awareness, and autonomy are mission critical."
           />
 
           <div className="grid gap-5 md:grid-cols-3">
@@ -802,7 +802,7 @@ export default function HomePage() {
 
       <RevealSection id="applications" className="border-t border-white/10 bg-black px-6 py-28 md:px-20">
         <div className="mx-auto max-w-7xl">
-          <SectionHeading eyebrow="Applications" title={<>Quantum In Space</>} text="The application set is aligned with optical clocks and Rydberg RF sensing for space and strategic missions." />
+          <SectionHeading eyebrow="Applications" title={<>Quantum In Space</>} text="Mission applications spanning resilient navigation, orbital sensing, autonomous systems, and strategic communications." />
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             {applications.map((app) => (
