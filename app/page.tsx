@@ -416,7 +416,15 @@ export default function HomePage() {
       <style
         dangerouslySetInnerHTML={{
           __html: `
-            @keyframes scroll { 0% { transform: translateX(0); } 100% { transform: translateX(-50%); } }
+            @keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+
+  100% {
+    transform: translateX(-50%);
+  }
+}
             @keyframes heroBgReveal {
               0% { opacity: .18; transform: scale(1.22); filter: saturate(.55) blur(10px); }
               100% { opacity: .95; transform: scale(1.06); filter: saturate(1.1) blur(0); }
@@ -453,7 +461,11 @@ export default function HomePage() {
               42% { box-shadow: inset 0 0 90px rgba(0,210,255,.08); }
               100% { box-shadow: inset 0 0 0 rgba(0,210,255,0); }
             }
-            .animate-scroll { display: flex; width: max-content; animation: scroll 60s linear infinite; }
+            .animate-scroll {
+  display: flex;
+  width: max-content;
+  animation: scroll 45s linear infinite;
+}
             .animate-scroll:hover { animation-play-state: paused; }
             .hero-bg-image { animation: heroBgReveal 3200ms cubic-bezier(.16,1,.3,1) both; }
             .hero-badge { animation: fadeUpReveal 1600ms cubic-bezier(.16,1,.3,1) 350ms both; }
@@ -948,18 +960,28 @@ export default function HomePage() {
           <div className="absolute bottom-0 left-0 top-0 z-20 w-24 bg-gradient-to-r from-black to-transparent md:w-40" />
           <div className="absolute bottom-0 right-0 top-0 z-20 w-24 bg-gradient-to-l from-black to-transparent md:w-40" />
 
-          {[0, 1].map((loop) => (
-            <div key={loop} className="animate-scroll gap-8 px-4 md:gap-16 md:px-8" aria-hidden={loop === 1}>
-              {partnersData.map((partner) => (
-                <div key={`${partner.id}-${loop}`} className="group flex w-[120px] shrink-0 flex-col items-center justify-start md:w-[160px]">
-                  <div className="flex h-20 w-20 items-center justify-center rounded-lg bg-[#f8f9fa] p-3 transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-[0_0_22px_rgba(0,210,255,.28)] md:h-24 md:w-24">
-                    <Image src={`/logo_${partner.id}.png`} alt={partner.name} width={96} height={96} className="max-h-full max-w-full object-contain" />
-                  </div>
-                  <div className="mt-4 w-full text-center text-[10px] font-bold uppercase text-gray-400 md:text-xs">{partner.name}</div>
-                </div>
-              ))}
-            </div>
-          ))}
+          <div className="animate-scroll">
+  {[...partnersData, ...partnersData].map((partner, index) => (
+    <div
+      key={`${partner.id}-${index}`}
+      className="group mx-4 flex w-[120px] shrink-0 flex-col items-center justify-start md:mx-8 md:w-[160px]"
+    >
+      <div className="flex h-20 w-20 items-center justify-center rounded-lg bg-[#f8f9fa] p-3 transition-all duration-300 group-hover:-translate-y-2 group-hover:shadow-[0_0_22px_rgba(0,210,255,.28)] md:h-24 md:w-24">
+        <Image
+          src={`/logo_${partner.id}.png`}
+          alt={partner.name}
+          width={96}
+          height={96}
+          className="max-h-full max-w-full object-contain"
+        />
+      </div>
+
+      <div className="mt-4 w-full text-center text-[10px] font-bold uppercase text-gray-400 md:text-xs">
+        {partner.name}
+      </div>
+    </div>
+  ))}
+</div>
         </div>
 
         <div className="mx-auto mt-16 max-w-7xl px-6 text-right">
