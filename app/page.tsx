@@ -274,7 +274,7 @@ const founders = [
   {
     photo: "/madhu.webp",
     name: "Dr. Madhu Trivikram Talluri",
-    role: "Chief Technology Officer",
+    role: "Chief Technical Officer",
     edu: ["Research - Lawrence Berkeley National Lab", "PhD (Molecular Physics) - Vrije Universiteit", "M. Phil & MS (Physics)"],
     bio: "Experimental physicist specializing in precision quantum measurements, ultrafast laser spectroscopy, and advanced light-matter interactions. His research experience includes UC Berkeley and Lawrence Berkeley National Lab, while his doctoral work at Vrije Universiteit Amsterdam contributed to stringent tests of quantum electrodynamics.",
     logos: "/logos_madhu.png",
