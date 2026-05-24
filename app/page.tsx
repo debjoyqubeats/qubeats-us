@@ -712,7 +712,7 @@ export default function HomePage() {
           <SectionHeading
             eyebrow="Why QuBeats"
             title={<>Why Strategic Teams Choose QuBeats</>}
-            text="This section explains the business case: not only the physics, but why the company is credible for aerospace and defense conversations."
+            text="Turning advanced quantum science into deployable systems for aerospace and strategic applications."
           />
 
           <div className="grid gap-5 md:grid-cols-2 lg:grid-cols-3">
@@ -762,7 +762,7 @@ export default function HomePage() {
 
       <RevealSection id="products" className="bg-[#050505] px-6 py-28 md:px-20">
         <div className="mx-auto max-w-7xl">
-          <SectionHeading eyebrow="Products" title={<>Clocks, RF Sensors, And Mission Fusion</>} text="Product language is now closer to a real aerospace website, while staying careful and non-overclaiming." />
+          <SectionHeading eyebrow="Products" title={<>Clocks, RF Sensors, And Mission Fusion</>} text="Advanced quantum systems designed for resilient navigation, sensing, and mission-critical operations." />
 
           <div className="grid gap-7 lg:grid-cols-3">
             {products.map((product) => (
@@ -827,7 +827,7 @@ export default function HomePage() {
       <RevealSection id="technology" className="relative overflow-hidden border-t border-white/10 bg-[#050505] px-6 py-28 md:px-20">
         <div className="absolute inset-0 space-grid opacity-35" />
         <div className="relative mx-auto max-w-7xl">
-          <SectionHeading eyebrow="Technology" title={<>Two Physics Platforms. One Space Mission Stack.</>} text="This section gives the site a stronger technical spine instead of only looking like a brochure." />
+          <SectionHeading eyebrow="Technology" title={<>Two Physics Platforms. One Space Mission Stack.</>} text="Built on complementary quantum physics platforms designed for real-world deployment." />
 
           <div className="grid gap-8 lg:grid-cols-[360px_1fr]">
             <div className="rounded-lg border border-white/10 bg-black/70 p-3 backdrop-blur">
