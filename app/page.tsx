@@ -273,7 +273,7 @@ const founders = [
   },
   {
     photo: "/madhu.webp",
-    name: "Dr. Madhu Talluri",
+    name: "Dr. Madhu Trivikram Talluri",
     role: "Chief Technical Officer",
     edu: ["Research - Lawrence Berkeley National Lab", "PhD (Molecular Physics) - Vrije Universiteit", "M. Phil & MS (Physics)"],
     bio: "Experimental physicist specializing in precision quantum measurements, ultrafast laser spectroscopy, and advanced light-matter interactions. His research experience includes UC Berkeley and Lawrence Berkeley National Lab, while his doctoral work at Vrije Universiteit Amsterdam contributed to stringent tests of quantum electrodynamics.",
@@ -1002,7 +1002,7 @@ export default function HomePage() {
   }
   text="Atomic physics, photonics, precision electronics, and mission-system fusion powering dependable field systems."
 />
-          <div className="grid grid-cols-1 gap-4 md:grid-cols-2 xl:grid-cols-4">
+          <div className="grid grid-cols-1 gap-2.5 md:grid-cols-2 xl:grid-cols-4">
             {founders.map((person) => (
               <div key={person.name} className="stagger-card group flex flex-col rounded-lg border border-white/10 bg-[#090909] p-5 hover:border-cyan-400/50">
                 <div className="relative mb-7 aspect-square w-full overflow-hidden rounded-lg border border-white/10">
