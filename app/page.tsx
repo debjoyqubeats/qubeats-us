@@ -690,10 +690,8 @@ export default function HomePage() {
 
           <div className="mt-10 rounded-lg border border-cyan-300/20 bg-cyan-300/[0.04] p-7">
             <p className="max-w-5xl text-lg font-light leading-9 text-gray-300">
-              The current QuBeats platform emphasizes full-stack quantum sensing, lab-grade accuracy in real-world conditions,
-              and strategic applications across navigation, sensing, and security. This US branch site translates that foundation
-              into a sharper aerospace story: precise time, clear RF awareness, and deployable quantum systems for space.
-            </p>
+  QuBeats combines full-stack quantum sensing, atomic precision, and mission-focused engineering for navigation, sensing, and strategic aerospace systems. The US branch sharpens that focus around precise timing, RF awareness, and deployable quantum technologies for space missions.
+</p>
             <div className="mt-7 flex flex-wrap gap-3">
               <a href="https://www.qubeats.com/" target="_blank" rel="noreferrer" className="rounded-lg border border-white/15 px-5 py-3 text-xs font-black uppercase tracking-[0.16em] text-white hover:border-cyan-300 hover:text-cyan-300">
                 Visit QuBeats India
@@ -1028,7 +1026,7 @@ export default function HomePage() {
                 <div className="p-7">
                   <h4 className="text-xl font-black uppercase text-white group-hover:text-cyan-300">{advisor.name}</h4>
                   <p className="mt-3 text-xs uppercase leading-6 tracking-[0.12em] text-gray-500">{advisor.role}</p>
-                  <p className="mt-5 text-sm font-light leading-7 text-gray-400 italic">
+                  <p className="mt-5 text-sm font-semibold leading-7 text-gray-300 italic">
   “{advisor.quote}”
 </p>
                 </div>
