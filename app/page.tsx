@@ -915,11 +915,7 @@ export default function HomePage() {
                 className="h-auto w-full object-contain"
               />
               <div className="pointer-events-none absolute inset-0 bg-gradient-to-t from-black/50 via-transparent to-transparent" />
-              <div className="absolute bottom-5 left-5 rounded-md border border-cyan-300/30 bg-black/65 px-4 py-3 backdrop-blur">
-                <p className="text-[10px] font-black uppercase tracking-[0.22em] text-cyan-300">
-                  QuBeats Founding Team
-                </p>
-              </div>
+              
             </div>
 
             <div className="grid gap-8 p-8 md:p-10 lg:grid-cols-[1.35fr_0.65fr] lg:items-center">
