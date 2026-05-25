@@ -603,7 +603,7 @@ export default function HomePage() {
           <div className="absolute inset-0 z-30 bg-[radial-gradient(circle_at_center,rgba(0,0,0,.06)_0%,rgba(0,0,0,.48)_58%,rgba(0,0,0,.92)_100%)]" />
           <div className="absolute inset-0 z-20 bg-gradient-to-b from-black/45 via-black/10 to-[#050505]" />
           <div className="absolute inset-0 z-10 space-grid opacity-70" />
-          <div className="hero-bg-image h-full w-full bg-[url('https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=2072&auto=format&fit=crop')] bg-cover bg-center" />
+          <div className="hero-bg-image h-full w-full bg-[url('/space_bg.jpg')] bg-cover bg-center" />
         </div>
 
         <div className="absolute right-8 top-32 z-20 hidden h-[380px] w-[380px] opacity-90 lg:block">
