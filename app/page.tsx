@@ -284,7 +284,7 @@ const founders = [
 
 const advisors = [
   {
-  photo: "/karambir.webp",
+  photo: "/karambir.jpg",
   name: "Adm Karambir Singh (Retd)",
   role: "Former Chief of Naval Staff, PVSM, AVSM, ADC",
   quote: "Resilient navigation in GNSS-denied environments is no longer optional: it is a fleet survival problem. QuBeats is pursuing the right intersection of atomic physics, low-SWaP engineering, and field discipline to make quantum-class sensing deployable where it matters."
