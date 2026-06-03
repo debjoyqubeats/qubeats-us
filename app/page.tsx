@@ -78,7 +78,7 @@ const whyItems = [
   {
     image: "/why4.jpg",
     title: "Space-Ready Direction",
-    text: "Its aerospace strategy centers on atomic timing and Rydberg-based sensing technologies designed for next-generation space missions.",
+    text: "QuBeats' aerospace strategy centers on atomic timing and Rydberg-based sensing technologies designed for next-generation space missions.",
   },
   {
     image: "/why5.jpg",
