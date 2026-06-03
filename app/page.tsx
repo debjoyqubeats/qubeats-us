@@ -83,7 +83,7 @@ const whyItems = [
   {
     image: "/why5.jpg",
     title: "Research Network",
-    text: "The partner ecosystem and academic associations create credibility for a frontier quantum sensing company.",
+    text: "Collaborations with leading research institutions, government organizations, and industry partners support QuBeats' quantum sensing initiatives.",
   },
   {
     image: "/why6.jpg",
