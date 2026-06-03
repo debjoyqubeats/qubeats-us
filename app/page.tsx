@@ -54,7 +54,7 @@ const aboutCards = [
   {
     image: "/about3.jpg",
     title: "Physics To Deployment",
-    text: "The site positions QuBeats as a team moving quantum sensing from lab-grade physics toward deployable aerospace workflows.",
+    text: "QuBeats is working to turn advanced quantum research into practical aerospace systems that can operate beyond the laboratory.",
   },
 ];
 
@@ -78,7 +78,7 @@ const whyItems = [
   {
     image: "/why4.jpg",
     title: "Space-Ready Direction",
-    text: "The US branch theme is focused on clocks and Rydberg RF sensing in space, not a generic deep-tech portfolio.",
+    text: "Its aerospace strategy centers on atomic timing and Rydberg-based sensing technologies designed for next-generation space missions.",
   },
   {
     image: "/why5.jpg",
