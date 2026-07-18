@@ -361,7 +361,15 @@ function SectionHeading({
     <div className={`mb-14 max-w-4xl ${center ? "mx-auto text-center" : "text-left"}`}>
       <p className="mb-4 text-xs font-bold uppercase tracking-[0.28em] text-cyan-400">{eyebrow}</p>
       <h2 className="text-4xl font-black uppercase leading-[0.95] text-white md:text-6xl">{title}</h2>
-      {text && <p className="mx-auto mt-6 max-w-2xl text-sm font-light leading-7 text-gray-400 md:text-base">{text}</p>}
+      {text && (
+  <p
+    className={`mt-6 max-w-2xl text-sm font-light leading-7 text-gray-400 md:text-base ${
+      center ? "mx-auto" : ""
+    }`}
+  >
+    {text}
+  </p>
+)}
     </div>
   );
 }
